@@ -3,15 +3,14 @@ import './App.css';
 import Header from './components/Header'
 import Form from './components/Form';
 import Summary from './components/Summary';
+import FEATURES from './FEATURES';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
-
 class App extends Component {
 
   constructor(props) {
     super(props);
-
   this.state = {
     selected: {
       Processor: {
@@ -48,7 +47,7 @@ class App extends Component {
         <Header />
         <main>
           <Form 
-          features={this.props.features}
+          features={FEATURES}
           state={this.state.selected}
           updateFeature={this.updateFeature}
           />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Total from './Total';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -25,7 +24,6 @@ function Option(props) {
   return (
       <div>
           {option}
-          <Total selected = {props.selected}/>
       </div>
   )
 };
