@@ -1,2 +1,2 @@
 # laptop_customizer
-Refracing app practice
+Refracting app practice
